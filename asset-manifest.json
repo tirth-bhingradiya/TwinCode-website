@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TwinCode-website/static/css/main.3b390740.css",
+    "main.js": "/TwinCode-website/static/js/main.6c823b3d.js",
+    "static/media/About_us_page.gif": "/TwinCode-website/static/media/About_us_page.46a7302e625ca22f0718.gif",
+    "static/media/Developer_activity.gif": "/TwinCode-website/static/media/Developer_activity.742e22963071e837b1e5.gif",
+    "index.html": "/TwinCode-website/index.html",
+    "main.3b390740.css.map": "/TwinCode-website/static/css/main.3b390740.css.map",
+    "main.6c823b3d.js.map": "/TwinCode-website/static/js/main.6c823b3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b390740.css",
+    "static/js/main.6c823b3d.js"
+  ]
+}
