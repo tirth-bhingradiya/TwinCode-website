@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.error-container h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 4rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.error-container p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.error-container a {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.error-container a:hover {
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.error-code {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #007bff;
+  text-shadow: 2px 2px #fff;
+}
+
+
+.highlight{
+  color:rgb(72, 72, 173);
+}
+/* .acrossimg{
+  display: flex;
+} */
+.logo{
+  font: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-family: 'Baloo 2', cursive;
+}
+.btn :hover{
+  background-color: white;
+  transition: 2s;
+}
+.cards{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.formheading{
+  font-family: 'Baloo 2', cursive;
+}
+.fillinfo{
+  background-color:#8692bb;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.instruction{
+  color: #fff;
 }
